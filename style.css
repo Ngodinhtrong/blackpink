@@ -23,7 +23,9 @@
     }
     @media  screen and (max-width: 767px){
         body{
-            display:inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
             width: 100%;
         }
         .card {
